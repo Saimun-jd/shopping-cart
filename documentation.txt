@@ -1,0 +1,13 @@
+// Product store
+    --actions:
+    addProduct -> adds product in the catelog
+    addToCart -> adds to cart section and decreases from catelog
+    incrementOrder -> when the user increments the product quantity from the cart
+    decrementOrder -> when the user decreases the product quantity from the cart
+// Cart store
+    --actions:
+    addCart -> add ordered item from catelog store to cart store
+    placeOrder -> clears the cart section
+    incrementItem -> when the user increments item from cart section
+    decrementItem -> when the user decreases item from cart section
+    removeFromCart -> when the user clears the item from cart

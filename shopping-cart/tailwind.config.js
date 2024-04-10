@@ -1,5 +1,6 @@
-/** @type {import('tailwindcss').Config} */
+
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
 export default {
   content: [
     "./index.html",
@@ -9,6 +10,9 @@ export default {
     extend: {
       fontFamily: {
         libre: ['Inter', ...defaultTheme.fontFamily.sans]
+      },
+      colors: {
+        ...colors,
       }
     },
   },

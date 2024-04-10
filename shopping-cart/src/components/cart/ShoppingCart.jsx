@@ -3,6 +3,7 @@ import CartItem from "./CartItem";
 import BillDetails from "./BillDetails";
 import Navbar from "./Navbar";
 import { useSelector } from "react-redux";
+import Alert from "../Alert";
 
 const ShoppingCart = () => {
 	const cartItems = useSelector((state) => state.cart);
