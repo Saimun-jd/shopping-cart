@@ -19,7 +19,7 @@ export const productSlice = createSlice({
             if(product.quantity>=2) {
                 product.quantity = product.quantity - 1;
             } else {
-                return state.filter(product => product.id !== action.payload);
+                product.quantity = 0;
             }
         },
         incrementOrder: (state, action) => {

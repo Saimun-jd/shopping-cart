@@ -1,3 +1,5 @@
+
+
 # Shopping Cart Website
 
 Welcome to my shopping-cart website project. This project was an assignment given by lws-react-redux course. I used vite for project generation and used react-redux as core front-end technology. I also used minimal tailwindcss for styling.
@@ -26,7 +28,7 @@ To get started with the project, follow these steps:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://your-repository-url.git
+git clone https://github.com/Saimun-jd/shopping-cart.git
 cd shopping-cart
 npm install
 npm run dev
