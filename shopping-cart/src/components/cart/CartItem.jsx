@@ -51,6 +51,7 @@ const CartItem = ({
 
 	return (
 		<>
+		<div>
 			<div className="cartCard">
 				<div className="flex items-center col-span-6 space-x-6">
 					<img
@@ -101,6 +102,7 @@ const CartItem = ({
 				</div>
 			</div>
 			{showStockout && <Alert />}
+		</div>
 		</>
 	);
 };
